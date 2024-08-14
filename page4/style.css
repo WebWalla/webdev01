@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ensure the image covers the entire area while maintaining aspect ratio */
+    border: 1px solid #000;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

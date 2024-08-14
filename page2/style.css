@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.s1{
+    background-image: url(background-1.jpg);
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #457200;
+    align-items: center;
+    height: 55px;
+}
+.logo img{
+    width: 95px;
+    padding: 5px;
+    margin-right: 60px;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav button{
+    display: inline;
+    width: 155px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-left: 110px;
+}
+nav button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* --------------------------MAIN 1------------------------------ */
+
+.container1{
+    width: auto;
+    height: 500px;
+    padding: 121px 132px;
+    color: rgb(255, 255, 255);
+}
+.container1 h2{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1 p{
+    margin-top: 10px;
+}
+.container1 button{
+    width: 164px;
+    height: 57px;
+    border: 2px yellow solid;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 20px;
+    
+}
+.container1 button a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+/* -----------------------------section 2----------------------------------------- */
+.s2{
+    height: 100vh;
+}
+.main2{
+    padding-top: 150px;
+    display: flex;
+}
+.main2 .head{
+    padding-top: 150px;
+    width: 60vh;
+    padding-left: 80px;
+    color: red;
+}
+.main2 .head p{
+    font-size: 30px;
+}
+.main2 .head button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: orange;
+    border-radius: 20px;
+    
+}
+.main2 .head button a{
+    text-decoration: none;
+    color: black;
+}
+.main2 .img{
+    width: 100vh;
+}
+.main2 .content1{
+    width: 100vh;
+}
+.main2 img{
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.main2 .content1{
+    width: 450px;
+    margin-right: 100px;
+}
+/* --------------------------------------------------------------- */
+.s3{
+    height: 100vh;
+}
+.ourproducts{
+    padding-top: 150px;
+    display: flex;
+}
+.ourproducts .productinfo{
+    padding-left: 100px;
+
+}
+.ourproducts .productinfo p{
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.ourproducts .productinfo p:first-child{
+    color: #457200;
+    font-size: 30px;
+}
+.ourproducts .productinfo p:nth-child(2){
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ourproducts .productinfo button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: yellow;
+}
+.ourproducts .productinfo button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.s3 .heading{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a96717;
+}
+/* -------------------------------------------------section 4------------------------------ */
+.s4{
+    height: 100vh;
+
+}
+.s4 .img{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.s4 .img img{
+    width: 1000px;
+}
+.s4 .standard{
+    margin-top: 175px;
+    text-align: center;
+}
+.s4 .standard :first-child{
+    color: #457200;
+    font-size: 50px;
+}
+.s4 .standard :nth-child(2){
+    text-align: center;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

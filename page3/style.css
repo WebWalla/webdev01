@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+}
+.main .black{
+    width: 100vw;
+    height: 80vh;
+    background-color: #00000078;
+    position: absolute;
+    top: 0;
+}
+.main .navbar{
+    position: relative;
+    z-index: 1;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.main .navbar img{
+    width: 150px;
+}
+.main .navbar button{
+    width: 150px;
+    background-color:rgba(44, 44, 44, 0.422);
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 10px 0px;
+    font-size: 18px;
+    
+}
+.navbar button:first-child{
+    border: 1px solid white;
+    
+}
+.navbar button:nth-child(2){
+    width: 100px;
+    margin-left: 10px;
+    background-color: red;
+}
+.main .content{
+    position: relative;
+    z-index: 1;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    gap: 10px;
+}
+.content :nth-child(1){
+    font-weight: 900;
+    font-size: 60px;
+    
+}
+.content :nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.content :nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.main .email{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+    color: white;
+
+}
+.main .pad{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "popins";
+    
+}
+.main .emailad{
+    margin-right: 5px;
+    width: 300px;
+    height: 35px;
+    background-color: rgba(40, 40, 40, 0.692);
+    border: 2px solid #c2c2c2;
+}
+.main .getbutn{
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.line{
+    width: 100vw;
+    height: 5px;
+    background-color: rgb(84, 84, 84);
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.s2 .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    
+}
+.s2 .text :nth-child(1){
+    font-size: 35px;
+    font-weight: 900;
+}
+.s2 .text :nth-child(2){
+    font-size: 15px;
+}
+.s2 .tv{
+    position: relative;
+}
+.s2 .tv img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.s2 .tv video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+.s4 .tv video{
+    width: 348px;
+    top: 38px;
+    right: 106px;
+}
+.s5{
+    width: 80vw;
+    margin: auto;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px 0px;
+}
+.faq h1{
+    text-align: center;
+    font-size: 60px;
+}
+.faq .faq-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 60vw;
+    margin: 30px 0px;
+}
+.faq-box .con{
+    background-color: #2d2d2d;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.faq .email{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+    color: white;
+
+}
+.faq .pad{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "popins";
+    
+}
+.faq .emailad{
+    margin-right: 5px;
+    width: 300px;
+    height: 35px;
+    background-color: rgba(40, 40, 40, 0.692);
+    border: 2px solid #c2c2c2;
+}
+.faq .getbutn{
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    height: 48px;
+    width: 150px;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.grid1 a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+@media screen and (max-width:1196px) {
+    body{
+        width: 150%;
+    }
+    .main .email{
+        padding: 20px;
+    }
+    .content :nth-child(1){
+        font-size: 30px;
+        
+    }
+    .content :nth-child(2){
+        font-size: 10px;
+    }
+    .content :nth-child(3){
+        font-size: 10px;
+    }
+    .main{
+        width: 150vw;
+        height: auto;
+    }
+    .main .black{
+        width: 150vw;
+        height: 47vh;
+    }
+    .main .navbar{
+        max-width: 145vw;
+    }
+    .s2{
+        max-width: none;
+        width: 150vw;
+        flex-wrap: wrap;
+    }
+    .s2 .text{
+        width: 150%;
+    }
+    .s2 .text :nth-child(1){
+        text-align: center;
+        font-size: 60px;
+    }
+    .s2 .text :nth-child(2){
+        text-align: center;
+        font-size: 25px;
+    }
+    .line{
+        width: 150vw;
+    }
+    .s5{
+        width: 150vw;
+        display: flex;
+        justify-content: center;
+    }
+    .faq .faq-box {
+        width: 121vw;
+    }
+    .faq h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    .faq .gmail{
+        margin-top: 10px;
+        display: flex;
+    }
+    footer {
+        color: white;
+        padding: 50px;
+        max-width: none;
+
+    }
+    .grid1 {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #000000;
+}
