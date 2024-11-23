@@ -1,0 +1,35 @@
+.border{
+    border: 1px solid red;
+}
+
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items:center ;
+}
+
+.flex{
+    display: flex;
+}
+
+.invert{
+    filter: invert(1);
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
