@@ -207,7 +207,7 @@ let playMusic = (track, pause = false) => {
 
 //chatGPT
 async function displayAlbums() {
-    let a = await fetch(`/page5/songs/`); // Adjust root path if necessary
+    let a = await fetch(`/songs/`); // Adjust root path if necessary
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -220,7 +220,7 @@ async function displayAlbums() {
         if (e.href.includes("/songs")) {
             let folder = e.href.split("/").slice(-2)[0]; // Extract the folder name correctly
             try {
-                let metadataResponse = await fetch(`/page5/songs/${folder}/info.json`); // Correct path
+                let metadataResponse = await fetch(`/songs/${folder}/info.json`); // Correct path
                 if (!metadataResponse.ok) {
                     console.warn(`info.json not found for folder: ${folder}`);
                     continue; // Skip this folder
@@ -238,7 +238,7 @@ async function displayAlbums() {
                         </svg>
                     </div>
                     <div class="card-image">
-                        <img src="/page5/songs/${folder}/cover.jpg" alt="song-image">
+                        <img src="/songs/${folder}/cover.jpg" alt="song-image">
                     </div>
                     <h2>${metadata.title}</h2>
                     <p>${metadata.description}</p>
@@ -254,7 +254,7 @@ async function displayAlbums() {
     Array.from(document.getElementsByClassName("card")).forEach(e => {
         e.addEventListener("click", async item => {
             console.log(`songs/${item.currentTarget.dataset.folder}`);
-            songs = await getSongs(`/page5/songs/${item.currentTarget.dataset.folder}`); // Ensure correct path
+            songs = await getSongs(`/songs/${item.currentTarget.dataset.folder}`); // Ensure correct path
             playMusic(songs[0]);
         });
     });
