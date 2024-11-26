@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(113, 113, 113);
+}
+
+.calculatorContainer{
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    padding: 7px;
+    
+}
+
+.screen{
+    width: 20vw;
+    height: 13vh;
+    background-color: #3489ff;
+    margin-top: 5px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.screen p{
+    margin-right: 21px;
+    color: white;
+    font-size: 31px;
+}
+
+.buttonContainer{
+    width: 20vw;
+    height: 50vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.set{
+    width: 20vw;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.btn{
+    width: 6vw;
+    height: 8vh;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    background-color: #d4e1ee;
+}
+
+.clear{
+    background-color: black;
+    color: white;
+}
+
+.whiteColor{
+    background-color: #e7e7e7;
+}
+
+.sub{
+    background-color: #ff4040;
+    color: white;
+}
+
+.divide{
+    background-color: #1cb6f4;
+    color: white;
+}
+
+.mul{
+    background-color: #ffc600;
+    color: white;
+}
+
+.add{
+    background-color: #36ff36;
+    color: white;
+}
+
+#res{
+    background-color: #3489ff;
+    width: 19vw;
+    height: 9vh;
+    margin: 6px;
+    border: none;
+    font-size: 62px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 40px;
+    color: white;
+}
+
+@media (max-width:898px){
+    .calculatorContainer{
+        width: 45vw;
+    }
+
+    .screen{
+        width: 44vw;
+    }
+
+    #res{
+        width: 42vw;
+    }
+
+    .buttonContainer{
+        width: 45vw;
+    }
+
+    .set{
+        width: 44vw;
+    }
+
+    .btn{
+        width: 9vw;
+    }
+}
+
+@media (max-width:500px){
+    .calculatorContainer{
+        width: 87vw;
+    }
+
+    .screen{
+        width: 86vw;
+    }
+
+    #res{
+        width: 83vw;
+    }
+
+    .buttonContainer{
+        width: 87vw;
+    }
+
+    .set{
+        width: 87vw;
+    }
+
+    .btn{
+        width: 19vw;
+    }
+}

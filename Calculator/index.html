@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <h1><marquee behavior="loop " direction="left">SK CALCULATOR</marquee></h1>
+        <div class="calculatorContainer">
+            <div class="screen">
+                <input type="text" name="" id="res">
+            </div>
+            <div class="buttonContainer">
+                <div class="set">
+                    <input type="button" value="%" onclick="Solve('%')" class="btn mod whiteColor">
+                    <input type="button" value="&lt;" onclick="Back()" class="btn doller whiteColor">
+                    <input type="button" value="CE" onclick="Clear()" class="btn cebtn whiteColor">
+                    <input type="button" value="C" onclick="Clear()" class="btn clear">
+                </div>
+                <div class="set">
+                    <input type="button" value="7" onclick="Solve('7')" class="btn seven">
+                    <input type="button" value="8" onclick="Solve('8')" class="btn eight">
+                    <input type="button" value="9" onclick="Solve('9')" class="btn nine">
+                    <input type="button" value="-" onclick="Solve('-')" class="btn sub">
+                </div>
+                <div class="set">
+                    <input type="button" value="4" onclick="Solve('4')" class="btn four">
+                    <input type="button" value="5" onclick="Solve('5')" class="btn five">
+                    <input type="button" value="6" onclick="Solve('6')" class="btn six">
+                    <input type="button" value="/" onclick="Solve('/')" class="btn divide">
+
+                </div>
+                <div class="set">
+                    <input type="button" value="1" onclick="Solve('1')" class="btn one">
+                    <input type="button" value="2" onclick="Solve('2')" class="btn two">
+                    <input type="button" value="3" onclick="Solve('3')" class="btn three">
+                    <input type="button" value="X" onclick="Solve('*')" class="btn mul">
+                </div>
+                <div class="set">
+                    <input type="button" value="." onclick="Solve('.')" class="btn dot">
+                    <input type="button" value="0" onclick="Solve('0')" class="btn zero">
+                    <input type="button" value="=" onclick="Result()" class="btn equal">
+                    <input type="button" value="+" onclick="Solve('+')" class="btn add">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
