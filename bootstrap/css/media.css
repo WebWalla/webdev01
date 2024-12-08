@@ -1,0 +1,72 @@
+@media only screen and (min-width:200px) and (max-width:574px){
+    .outerbtn{
+        position: fixed;
+        bottom: 0px;
+        background-color: white;
+        padding: 5px 0px;
+    }
+
+    .outerbtn button{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    .maincontent h1{
+        font-size: 24px;
+    }
+
+    .maincontent h1 br{
+        display: none;
+    }
+
+    .maincontent p, .maincontent ul li{
+        font-size: 16px;
+    }
+
+    .maincontentbtn{
+        font-size: 11px;
+    }
+
+    .s2Content h2{
+        font-size: 29px;
+        width: 100%;
+    }
+    
+ 
+    .s2boxcontent p{
+        font-size: 12px;
+    }
+
+    .s2boxcontent h5{
+        font-size: 14px;
+    }
+
+    .certificate img{
+        width: 100%;
+    }
+
+    .tablist .nav-pills .nav-link.active, .nav-pills {
+        
+        font-size: 18px;
+    }
+
+    .s4conatiner h2{
+        font-size: 30px;
+    }
+
+    .s5Container h3{
+        font-size: 30px;
+    }
+
+    .s6container h2{
+        font-size: 30px;
+    }
+
+    .footerText img{
+        width: 30%;
+    }
+
+    .footerText p{
+        width: 90%;
+    }
+}

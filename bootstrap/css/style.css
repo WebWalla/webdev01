@@ -1,0 +1,160 @@
+*{
+    font-family: "Roboto Condensed", serif;
+}
+
+.maincontent h1{
+    font-size: 52px;
+}
+
+.maincontent h1 span{
+    color: #2699FB;
+    background: url(/img/line.png) no-repeat bottom;
+}
+
+.maincontent p{
+    font-size: 22px;
+}
+
+.maincontent ul{
+    list-style: none;
+}
+
+.maincontent ul li{
+    font-size: 22px;
+}
+
+.maincontent ul li i{
+    color: #2699FB;
+}
+.maincontentbtn button{
+    border-style: none;
+    width: 65%;
+    border-radius: 5px;
+}
+
+.maincontentbtn :nth-child(2) i{
+    background: white;
+    color: black;
+}
+
+.maincontentbtn :first-child{
+    background:linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+}
+
+.formBtn{
+    width: 100%;
+}
+
+.bannerForm{
+    border-radius: 15px;
+}
+
+.countersection h6{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0ACEFE;
+}
+
+.highlight-section{
+    background-color: #F7FAFF;
+}
+
+.highlight-section h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.keyHighlights button{
+    border: none;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+    border-radius: 12px;
+}
+
+.s2Content h2{
+    width: 50%;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.s2Content p{
+    font-size: 18px;
+}
+
+.s3Container{
+    background-color: #F7FAFF;
+}
+
+.s3content  h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s3content p{
+    font-size: 16px;
+
+}
+
+.s3Container button{
+    border-style: none;
+    border-radius: 5px;
+    background-color: #2699FB;
+    color: white;
+    
+}
+
+.s4conatiner{
+    background-color:aliceblue;
+}
+
+.s4conatiner h2{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+
+.tablist .nav-pills .nav-link.active, .nav-pills {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 24px;
+}
+
+.tablist ul{
+    list-style: none;
+}
+
+.tabcontent li{
+    font-size: 18px;
+}
+
+.tabcontent li i{
+    color: #0ACEFE;
+}
+
+.s5Container h3{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.s4dbtn button{
+    background-color:#2699FB ;
+    border-radius: 10px;
+    color: white;
+}
+
+.s6container h2{
+    font-size: 42px;
+}
+
+.footer{
+    background-color: #0A2540;
+}
+
+.footerText p{
+    width: 50%;
+}
+
+.sponserImg{
+    width: 100%;
+}
