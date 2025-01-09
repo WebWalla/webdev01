@@ -1,0 +1,55 @@
+@media only screen and (min-width:200px) and (max-width:574px){
+    .s1head{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .s1{
+        text-align: center;
+    }
+
+    .s1 button{
+        width: 40vw;
+    }
+
+    .phone{
+        width: auto;
+    }
+
+    .s4card{
+        width: auto;
+        text-align: center;
+    }
+
+    .s4 .icon{
+        margin: auto;
+    }
+
+    .mycard{
+        height: auto;
+    }
+
+    .s5 h1{
+        font-size: 1.5rem;
+    }
+    
+    .s5 p{
+        font-size: 1rem;
+    }
+
+    .s5 button{
+        width: 50vw;
+    }
+
+    .s6 img{
+        width: 41%;
+    }
+
+    .s8 img{
+        display: none;
+    }
+
+    .navbtn{
+        display: none;
+    }
+}

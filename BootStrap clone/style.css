@@ -1,0 +1,189 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textcolorblue{
+    color: #2772ff;
+}
+
+
+.myNavbar {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.s1 {
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 95%) 50%, color-mix(in srgb, var(--accent-color), transparent 98%) 25%, transparent 50%);
+}
+
+.s1img{
+    width: 100%;
+}
+
+.s1cont{
+    background-color: aqua;
+    width: 50%;
+    
+}
+
+.navbtn{
+    background-color: #2772ff;
+
+}
+
+.s1head{
+    font-size: 41px;
+}
+
+.s1 span{
+    color: #2772ff;
+}
+
+.s1 button{
+    padding: 6px;
+    border-radius: 20px;
+    width: 15vw;
+    font-size: 15px;
+}
+
+.s1card  .rounded-circle{
+    background-color: #2772ff;
+    background-color: #2772ff;
+    width: 19%;
+    height: 65%;
+    padding: 6%;
+}
+
+.s1card h5{
+    font-size: 15px
+}
+
+.s1card{
+    font-size: 12px;
+}
+
+.s1card1 img{
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.s1card1{
+    flex-direction: row;
+    border: none;
+}
+
+.myprofile img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.myprofile{
+    border: none;
+    flex-direction: row;
+}
+
+.myprofile img:nth-child(2){
+    width: 10vw;
+}
+
+.s2 h3{
+    font-size: 1rem;
+    color: #2772ff;
+}
+
+.s2 i{
+    color: #2772ff;
+}
+
+#call{
+    width: 1.5rem;
+
+}
+/* .s2sideimg img{
+    width: 100%;
+} */
+
+.s3 img{
+    width: 2rem;
+}
+
+.mycard{
+    height: 36vh;
+}
+
+
+.icon{
+    width: 2rem;
+}
+
+.s4 .card{
+    /* text-align: right; */
+    border: none;
+}
+
+.phone{
+    width: 20vw;
+}
+
+.s4 h5{
+    font-size: 1.6rem;
+}
+
+.s5back{
+    background-color: #0058ffc9;
+}
+
+.s5 h1{
+    font-size: 5rem;
+}
+
+.s5 p{
+    font-size: 1.5rem;
+}
+
+.s5 button{
+    width: 14vw;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.s6 img{
+    width: 21%;
+}
+
+.sec6{
+    background-color: #f3f9ff;
+}
+
+.sec3{
+    background-color: #f3f9ff;
+}
+
+.s7 li{
+    border: none;
+}
+
+.s7 span{
+    font-size: 4rem;
+}
+
+.s7btn{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.s7{
+    background-color: #f3f9ff;
+}
+
+.s8cont{
+    background-color: #f3f9ff;
+}
+
+.s9 img{
+    width: 15%;
+}
+
+.s9 h4{
+    font-weight: bolder;
+}
