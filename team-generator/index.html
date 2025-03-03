@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include jsPDF Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Team Generator</h1>
+    <div class="controls">
+      <button id="generate-teams">Generate Teams</button>
+      <button id="sort-teams">Sort Teams by Total Score</button>
+      <button id="export-csv">Export as CSV</button>
+      <button id="export-pdf">Export as PDF</button>
+    </div>
+    <div id="teams-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
